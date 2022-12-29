@@ -1,7 +1,8 @@
-ESP32 Temperature Monitoring with MAX6675 Thermocouple and InfluxDB
+<h1>ESP32 Temperature Monitoring with MAX6675 Thermocouple and InfluxDB</h1>	
 
 This Arduino sketch runs on an ESP32 development board and uses a MAX6675 thermocouple amplifier to measure temperature. The temperature data is sent to an InfluxDB database via WiFi and can be visualized on a Grafana dashboard. The sketch also synchronizes time with a time server.
-Hardware
+
+<h3>Hardware</h3>
 
 * ESP32 development board
 * MAX6675 thermocouple amplifier
