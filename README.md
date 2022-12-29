@@ -98,7 +98,8 @@ void loop() {
 }
 ```
 
-Usage
+<h3>Usage</h3>
+
 1. Connect the hardware as shown in the circuit diagram above.
 2. Install the InfluxDB Arduino Client library.
 3. Update the ssid, password, influxDbUrl, and influxDbDatabase variables with your WiFi and InfluxDB connection details.
@@ -106,8 +107,8 @@ Usage
 5. The ESP32 should connect to the WiFi network and start sending temperature data to the InfluxDB database.
 6. Use Grafana to create a dashboard and visualize the temperature data from the InfluxDB database.
 
+<h3>Notes</h3>
 
-Notes
 * Make sure the thermocouple is properly connected to the MAX6675 amplifier.
 * The thermocouple can measure temperatures from -200°C to +1350°C, but the MAX6675 has a range of 0°C to 1024°C.
 * The MAX6675 can also measure temperatures in Fahrenheit and Kelvin, but the code above only sends the temperature in Celsius. To send the temperature in Fahrenheit or Kelvin, use the readFahrenheit() or readKelvin() functions instead of readCelsius().
