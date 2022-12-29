@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../test"
+		},
+		{
+			"name": "dhtTest",
+			"path": "../../dhtTest"
+		},
+		{
+			"name": "DHT22InfluxDB",
+			"path": "../../DHT22InfluxDB"
+		},
+		{
+			"name": "MAX6675InfluxDB",
+			"path": ".."
+		},
+		{
+			"name": "MAX6675Test",
+			"path": "../../MAX6675Test"
+		},
+		{
+			"name": "221202-134725-arduino-wifiscan",
+			"path": "../../221202-134725-arduino-wifiscan"
+		}
+	],
+	"settings": {}
+}
