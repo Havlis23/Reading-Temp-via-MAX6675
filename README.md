@@ -8,11 +8,12 @@ This Arduino sketch runs on an ESP32 development board and uses a MAX6675 thermo
 * MAX6675 thermocouple amplifier
 * K-type thermocouple
 * WiFi module
-Circuit Diagram
-￼
-Dependencies
+
+<h3>Dependencies</h3>
+
 * InfluxDB Arduino Client
 * WiFiMulti
+
 
 ```c++
 #include <Arduino.h>
